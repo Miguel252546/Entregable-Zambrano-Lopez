@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiDex De Kanto</title>
+    <link rel="stylesheet" href="../css/style-Pokedex.css">
+    <script src="../js/main-Pokedex.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Pokedex de Kanto</h1>
+        <p>Aca Vamos A Ver La Informacion Basica De Los Pokémon de La Primera Generación</p>
+        <nav class="nav">
+            <ul>
+                <li><a href="../html/Trivia.html">Trivia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section style="text-align: center; margin: 20px;"> <!-- Sección para el filtro -->
+    <h2>Filtrar Pokémon</h2>
+    <label for="filter">Filtrar por:</label> <!-- Etiqueta para el filtro -->
+    <select id="filter">
+        <option value="all">Todos</option>
+        <option value="alphabet">Orden Alfabético</option>
+        <option value="Planta">Tipo Planta</option>
+        <option value="Fuego">Tipo Fuego</option>
+        <option value="Agua">Tipo Agua</option>
+        <option value="Veneno">Tipo Veneno</option>
+        <option value="Tierra">Tipo Tierra</option>
+        <option value="Bicho">Tipo Bicho</option>
+        <option value="Volador">Tipo Volador</option>
+        <option value="Eléctrico">Tipo Eléctrico</option>
+        <option value="Normal">Tipo Normal</option>
+        <option value="Hada">Tipo Hada</option>
+    </select>
+    </section>
+    <section style="padding: 20px;">
+        <h2>Ingresar A Un Nuevo Pokemon</h2>
+        <form id="pokemon-form">
+            <input type="text" id="pokeName" placeholder="Nombre" required>
+            <input type="text" id="pokeNumber" placeholder="#000" required>
+            <input type="text" id="pokeType" placeholder="Tipo" required>
+            <input type="text" id="pokeImg" placeholder="URL de imagen" required>
+            <textarea id="pokeDesc" placeholder="Descripción" required></textarea>
+            <button type="submit">Agregar Pokémon</button>
+        </form>
+    </section>
+    <main class="main">
+        <div class="card-container" id="card-container"></div>
+    </main>
+</body>
+</html>
