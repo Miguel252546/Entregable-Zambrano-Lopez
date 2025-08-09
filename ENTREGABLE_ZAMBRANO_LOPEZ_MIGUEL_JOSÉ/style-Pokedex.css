@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/Poké_Balls.png'); ;
+    background-image: url('../ENTREGABLE_ZAMBRANO_LOPEZ_MIGUEL_JOSÉ/img/Poké_Balls.png'); ;
     background-position: center;
     background-repeat: repeat;
     background-color: rgb(138, 177, 209);
@@ -89,6 +89,22 @@ p {
 .nav a:hover {
     background-color: #ffcb05;
     color: #000;
+}
+
+.swal2-popup {
+    background-image: url('../ENTREGABLE_ZAMBRANO_LOPEZ_MIGUEL_JOSÉ/img/red.png'); ;
+    color: #000000;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: none;
+}
+
+.swal2-title {
+    color: #ff0303;
+    font-size: 24px;
+    margin-bottom: 10px;
+
 }
 
 

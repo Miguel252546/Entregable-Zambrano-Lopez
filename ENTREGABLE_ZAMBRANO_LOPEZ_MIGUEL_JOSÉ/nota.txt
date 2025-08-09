@@ -1,22 +1,14 @@
-Este proyecto presenta un simulador interactivo basado en el universo Pokémon, construido completamente con HTML, 
-CSS y JavaScript, integrando las herramientas y conceptos vistos hasta el momento. 
-
-La estructura está organizada en dos secciones principales:
-
-Pokédex de Kanto: una interfaz dinámica que permite filtrar, visualizar e ingresar nuevos Pokémon, con datos almacenados en LocalStorage.
-
-Trivia Pokémon: un juego interactivo de preguntas y respuestas sobre la primera generación de Pokémon.
-
-///////////////////////////////////////////////////////
-
-Sobre la entrega
-La parte principal de esta entrega es la Pokédex, que está en Pokedex.html.
-También podés entrar desde index-Principal.html o Trivia.html, ya que ambas páginas tienen un botón que lleva directo a la Pokédex.
-
-A tener en cuenta
-En Pokedex.html vas a tener que cargar un Pokémon con su nombre, número, tipo, imagen y una descripción.
-El nuevo Pokémon se va a mostrar al final de la lista, no al principio. ¡Para que no te marees buscándolo! XD. 
-
-Espero que les guste
+Link de GDrive:
+https://drive.google.com/drive/u/0/folders/11nklv62m9twrMebAdYL1k24wYDNAveq-
 
 
+____________________________________________
+
+Aca les dejo mi entrega final profesor, espero que le guste, use la libreria de sweetalert2,
+para cuando se agreaga correctamente o n oun pokemon nuevo o existente.
+cambia las imagenes, agregue los 151 pkemon de la region de kanto, puede agregar mas si asi lo desea 
+para verificar.
+Tuve promblemas con netfily, ya que cada vez que subia el proyecto, la pagina me marcaba error posterior a ser cargada.
+espero que eso no influye en la nota T_T.
+
+Mucha gracias por las clases, las disfrute al maximo, y aprendi mucho de usted. 
