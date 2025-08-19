@@ -107,4 +107,42 @@ p {
 
 }
 
+/* Modo Oscuro */
+body.dark {
+    background-image: none; /* quita el fondo de Poké Balls */
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark header {
+    background-color: rgba(20, 20, 20, 0.9);
+    color: #ffcb05;
+}
+
+body.dark h2 {
+    background-color: rgba(20, 20, 20, 0.9);
+    color: #ffcb05;
+}
+
+body.dark p {
+    color: #fff176; /* un amarillo más suave */
+}
+
+body.dark .card {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    color: #eaeaea;
+}
+
+body.dark .nav a {
+    background-color: #222;
+    color: #ffcb05;
+}
+
+body.dark .nav a:hover {
+    background-color: #ffcb05;
+    color: #000;
+}
+
+
 
